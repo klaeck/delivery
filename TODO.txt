@@ -1,0 +1,4 @@
+- Add Log4J
+- Custom tag
+- Homepage
+- Create pdf reports creation

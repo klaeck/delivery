@@ -1,0 +1,100 @@
+body {
+    font-family: "Bahnschrift", monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hor {
+    background-color: #333;
+    text-shadow: black 0 0 2px;
+}
+
+.acc {
+    text-shadow: black 0 0 2px;
+    background-color: dimgray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.home {
+    background: red;
+}
+
+.locale {
+    background: none;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.locale option {
+    color: white;
+    background-color: dimgrey;
+}
+
+.locale:hover {
+    background-color: dimgrey;
+}
+
+.tab {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tab td, .tab th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tab tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tab tr:hover {
+    background-color: #ddd;
+}
+
+.filter {
+    background: grey;
+    color: white;
+    width: fit-content;
+}
+
+.filter li {
+    margin-left: 10px;
+}
+
+th a {
+    color: #111111;
+}
+
+.add {
+    background-color: dimgray;
+}
+
+.infozone {
+    background-color: seashell;
+    margin-top: 10px;
+    width: fit-content;
+}
